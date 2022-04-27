@@ -12,21 +12,15 @@ var peso11 = 11
 var resultado = 0 
 var resto = 0 
 for (var i = 0; i < 9; i++) {
-
 resultado += cpfcalculo[i] * peso10 // += faz virar uma variavel acumulativa
 peso10--;
 }
 console.log(resultado)
-
 resto = resultado % 11 
-
 if  (resto < 2 ) {
-
     cpfcalculo+=0 
 }
-
 else{
-
     cpfcalculo+=(11-resto)
 }
 
@@ -47,11 +41,9 @@ if (resto < 2 ) {
 else {
     cpfcalculo += 11 - resto
 }
-
 console.log(cpfcalculo)
 
 if (cpfcalculo !=cpfusuario){
-
     alert ("cpf incorreto")
 }
 
