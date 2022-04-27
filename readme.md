@@ -26,3 +26,7 @@ Outro exemplo de aplicaçao do javascript
 
 
 ```
+
+#### Cálculo do CPF em Javascript
+
+!["Código do calculo do CPF"](img/cpf.png)
