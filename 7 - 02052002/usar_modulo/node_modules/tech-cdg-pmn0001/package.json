@@ -1,0 +1,16 @@
+{
+  "name": "tech-cdg-pmn0001",
+  "version": "1.0.2",
+  "description": "Primeiro modulo em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Estudo",
+    "Funçôes"
+  ],
+  "author": "Caio Duarte de Godoy",
+  "license": "ISC"
+}

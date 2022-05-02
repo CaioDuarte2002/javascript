@@ -1,0 +1,19 @@
+{
+  "name": "projetoexemplo",
+  "version": "1.0.0",
+  "description": "Primeiro projeto usando express MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "MongoDB",
+    "mongoose"
+  ],
+  "author": "Caio Duarte de Godoy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
