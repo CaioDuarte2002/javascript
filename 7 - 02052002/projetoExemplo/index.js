@@ -65,7 +65,7 @@ const cli = new Cliente(req.body)
 Cli
 .save()
 .then((dados)=>{
-res.status(201).send({output`Cliente cadastrado`,info:dados})
+res.status(201).send({output`cliente cadastrado`,info:dados})
 
 })
 
@@ -85,6 +85,7 @@ app.put("/atualizar/:id",(req,res)=>{
 
 Cliente.findbyidabdupdate(req.params.id,res.body,{new:true})
 if(erro)return res.status(400).send({output:`erro ao atualizar->${erro}`})
+res.status(200).send({output:`atualizado`, info:dados})
 
 //para deletar um dado iremos usar o verbo de DELETE passando id 
 app.delete("/apagar/:id",(req,res)=>{
